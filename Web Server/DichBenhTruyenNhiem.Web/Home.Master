@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Adicom.Web.Home" %>
+
+<%@ Register Src="Controls/UCFooter.ascx" TagName="UCFooter" TagPrefix="adicom" %>
+<%@ Register Src="Controls/UCHeader.ascx" TagName="UCHeader" TagPrefix="adicom" %>
+<%@ Register Src="Controls/UCMainMenu.ascx" TagName="UCMainMenu" TagPrefix="adicom" %>
+<%@ Register TagPrefix="Localized" Namespace="Localization" Assembly="Localization" %>
+<%@ Register Src="Controls/UCLiveSupport.ascx" TagName="UCLiveSupport" TagPrefix="adicom" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hỗ trợ cảnh báo dịch bệnh</title>
+
+    <script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+
+</head>
+<body class="adicom">
+    <form id="form1" runat="server">
+    <div align="center">
+        <div id="container">
+            <div id="containerbg">
+                <!-- start header -->
+                <div id="header">
+                    <adicom:UCHeader ID="UCHeader1" runat="server"></adicom:UCHeader>
+                </div>
+                <!-- end header -->
+                <!-- start menu. -->
+                <div class="header-menu">
+                    <adicom:UCMainMenu ID="UCMainMenu1" runat="server"></adicom:UCMainMenu>
+                </div>
+                <!-- end menu.  -->
+                <!-- start banner -->
+                <div id="containerBody">
+                    <div id="banner">
+                        <div>
+                            <object style="z-index:-1;" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+                                width="100%" height="153">
+                                <param name="MOVIE" value="./images/en/adicom.swf">
+                                <param name="PLAY" value="true">
+                                <param name="LOOP" value="false">
+                                <param name="QUALITY" value="high">
+                                <img src="./images/en/Products_Clarity_02.jpg" width="780" height="153" wmode="opaque" quality="high" />
+                                <%--<embed src="./images/en/Products_Clarity_02.jpg" width="780" height="153" play="true" loop="false" wmode="opaque"
+                                    quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />--%>
+                             </object>
+                        </div>
+                        <div id="support" class="module">
+                            <adicom:UCLiveSupport ID="UCLiveSupport1" runat="server" />
+                        </div>
+                    </div>
+                    <!-- end banner -->
+                    <!-- start content -->
+                    <!-- start main body -->
+                    <div id="content_home">
+                        <div id="content">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <!-- end main body -->
+                    <div class="separator">
+                    </div>
+                </div>
+                <!-- end content -->
+                <!-- start footer-->
+                <div id="footer">
+                    <adicom:UCFooter ID="UCFooter1" runat="server"></adicom:UCFooter>
+                </div>
+                <!-- end footer-->
+                <div id="copyRight">
+                    <div align="center">
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap enableLocalization="true" xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home"  description="admin Home">   
+    <!-- Main -->
+    <siteMapNode title="Thông tin " url="~/admin/main.aspx" IconUrl="~/admin/Common_Img/ico-dashboard.png" description="Thông tin chung" roles="2" >
+      <siteMapNode title="Trang chủ" url="~/admin/home.aspx" description="Thông tin về trang chủ" roles="2"/>
+      <siteMapNode title="Giới thiệu" url="~/admin/about.aspx" description="Trang giới thiệu về hệ thống" roles="2">
+        <siteMapNode title="Mục tiêu" url="~/admin/Mission.aspx" description="Mục tiêu" roles="2"/>
+        <siteMapNode title="Tổ chức hệ thống cảnh báo dịch bệnh" url="~/admin/Organization.aspx" description="Tổ chức hệ thống cảnh báo dịch bệnh" roles="2"/>
+        <siteMapNode title="Đội ngũ quản lý" url="~/admin/Mod.aspx" description="Đội ngũ quản lý" roles="2"/>
+        <siteMapNode title="Why Cảnh Báo Dịch Bệnh ?" url="~/admin/Whyadicom.aspx" description="Why Cảnh Báo Dịch Bệnh ?" roles="2"/>
+      </siteMapNode>
+      <siteMapNode title="Tuyển dụng" url="~/admin/career.aspx" description="Cơ hội nghề nghiệp" roles="2"/>
+    </siteMapNode>    
+    
+    <!--TinTuc-->
+    <siteMapNode title="Tin Tức" url="~/admin/news.aspx" description="Tin tức" IconUrl="~/admin/Common_Img/ico-news.gif" roles="2">
+      <siteMapNode title="Tin tức" url="~/admin/callcenter.aspx" description="Phổ biến kiến thức" roles="2">
+        <siteMapNode title="Tin tức trong nước" url="~/admin/callcenter1.aspx" description="Bệnh Nhi" tag="callcenter1" roles="2" />
+        <siteMapNode title="Tin tức quốc tế" url="~/admin/callcenter2.aspx" description="Bệnh da liễu" tag="callcenter2" roles="2" />
+        <siteMapNode title="Tin trong ngày" url="~/admin/DailyNews.aspx" description="Bệnh tim mạch" tag="callcenter3" roles="2" />
+      </siteMapNode>
+      <siteMapNode title="Danh sách tin" url="~/admin/listnews.aspx" description="Danh sách tin" roles="2"/>
+      <siteMapNode title="Tạo mới tin" url="~/admin/newsadd.aspx" description="Tạo mới tin" roles="2"/>
+    </siteMapNode>   
+    
+    <!-- Sales -->
+    <siteMapNode title="Đối tác" url="~/admin/PartnerHome.aspx" IconUrl="~/admin/Common_Img/ico-customers.png" description="Thông tin đối tác" roles="2" >
+      <siteMapNode title="Đối tác trong nước" url="~/admin/listpartner.aspx?type=1" description="Danh sách đối tác trong nước" roles="2"/>
+      <siteMapNode title="Đối tác quốc tế" url="~/admin/listpartner.aspx?type=2" description="Danh sách đối tác quốc tế" roles="2"/>
+      <siteMapNode title="Tạo mới" url="~/admin/partner.aspx" description="Tạo mới đối tác" roles="2"/>
+    </siteMapNode>   
+    
+    <!-- PhoBien -->
+    <siteMapNode title="Phổ biến kiến thức" url="~/admin/PhoBienHome.aspx" description="Tin tức" IconUrl="~/admin/Common_Img/ico-content.png" roles="4">
+        <siteMapNode title="Danh sách phổ biến kiến thức" url="~/admin/Phobiens.aspx" description="Danh sách phổ biến kiến thức" roles="4"/>
+        <siteMapNode title="Tạo mới phổ biến kiến thức" url="~/admin/PhoBienAdd.aspx" description="Tạo mới phổ biến kiến thức" roles="4"/>
+    </siteMapNode>  
+
+    <!--CanhBaoDichBenh-->
+    <siteMapNode title="Cảnh báo dịch bệnh" IconUrl="~/admin/Common_Img/ico-catalog.png" url="~/admin/CatalogHome.aspx" description="Thông tin Cảnh báo dịch bệnh" roles="5">
+     <siteMapNode title="Dịch bệnh " url="~/admin/listcatalog.aspx?type=1" description="Danh sách Dịch bệnh " roles="5"/>
+     <siteMapNode title="Phòng chống" url="~/admin/listcatalog.aspx?type=2" description="Danh sách Phòng chống" roles="5"/>
+     <siteMapNode title="Tạo mới" url="~/admin/catalog.aspx" description="Tạo mới cảnh báo dịch bệnh" roles="5"/>
+   </siteMapNode> 
+    
+    <!--PhanQuyen-->
+    <siteMapNode title="Phân Quyền" IconUrl="~/admin/Common_Img/ico-dashboard.png" url="~/admin/UsersHome.aspx" description="Tạo mới User " roles="1">
+      <siteMapNode title="Danh sách User" url="~/admin/Users.aspx" description="Danh sách User" roles="1"/>
+      <siteMapNode title="Danh sách Quyền" url="~/admin/Useradd.aspx" description="Danh sách Quyền" roles="1"/>
+    </siteMapNode>
+    
+    <!--QuanLy-->
+    <siteMapNode title=" Quản Lý" IconUrl="~/admin/Common_Img/ico-sales.png" url="~/admin/QuanlyHome.aspx" description=" Giám Sát Và Quản Lý " roles="1">
+      <siteMapNode title="Danh sách Bệnh Viện" url="~/admin/BenhVienHome.aspx" description="Danh sách Bệnh Viện" roles="1"/>
+      <siteMapNode title="Danh sách Dịch Bệnh" url="~/admin/BenhDichHome.aspx" description="Danh Dịch Bệnh" roles="1"/>
+      <siteMapNode title="Quản lý Khai Báo Dịch Bệnh" url="~/admin/DulieudichbenhsAdmin.aspx" description="Khai Báo Dịch Bệnh" roles="1"/>
+      <siteMapNode title="Biểu Đồ Dịch Bệnh" url="~/admin/DanhSachDichBenhBenhVien.aspx" description="Biểu Đồ Dịch Bệnh" roles="1"/>
+      <siteMapNode title="Cài đặt" url="~/admin/Configuration.aspx" description="Cài đặt thông tin website" roles="2"/>
+    </siteMapNode>  
+    
+    <!--BaoCao-->
+    <siteMapNode title="Báo Cáo" IconUrl="~/admin/Common_Img/ico-redcross.png" url="~/admin/XemBaoCao.aspx" description="Thông Tin Bệnh Viện" roles="3">
+      <siteMapNode title="Báo cáo dịch bệnh" url="~/admin/DuLieuBenhDichHome.aspx" description="Báo cáo dịch bệnh" roles="3"></siteMapNode>
+      <siteMapNode title="Xem báo cáo" url="~/admin/XemDanhSachBaoCao.aspx" description="Danh sách báo cáo" roles="3"></siteMapNode>
+      <siteMapNode title="Gửi thông báo" url="~/admin/GuiThongBao.aspx" description="Gửi thông báo" roles="3"></siteMapNode>
+      <siteMapNode title="Xem thông báo" url="~/admin/XemThongBao.aspx" description="Xem thông báo" roles="3"></siteMapNode>
+    </siteMapNode>    
+
+    <!--LogOut-->  
+    <siteMapNode title="Logout" IconUrl="~/admin/Common_Img/ico-warnings.gif" url="~/admin/logout.aspx" description="Thoát khỏi hệ thống"/>
+
+  </siteMapNode>
+</siteMap>

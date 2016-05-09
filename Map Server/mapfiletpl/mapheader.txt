@@ -1,0 +1,20 @@
+MAP
+	NAME "Hanh Chinh"
+	STATUS ON
+	SIZE @#size#@
+	SYMBOLSET  @#symbolset#@
+	EXTENT         @#extent#@
+	UNITS @#unit#@
+	SHAPEPATH  "shapefile"
+	IMAGECOLOR     255 255 255
+	FONTSET   @#fontset#@	
+	PROJECTION
+		"init=@#projection#@"
+	END
+	WEB
+		IMAGEPATH "/ms4w/tmp/ms_tmp/"
+		IMAGEURL  "/ms_tmp/"			
+		metadata  
+			"wms_feature_info_mime_type" "text/html" 
+		end
+	END

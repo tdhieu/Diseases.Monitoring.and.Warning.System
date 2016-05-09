@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Resource>
+  
+  <!--English-->
+  <item name="colon">:</item>
+  <item name="lang">en</item>
+  <item name="title">Warning and Mornitoring Disease System</item>
+  <item name="sitename">Warning and Mornitoring Disease System</item>
+  <item name="slogan">For A Healthy World</item>
+  <item name="footer">
+    Copyright © 2009 Institute of Information Technology - IOIT VietNam
+  </item>
+  <item name="address">18 Hoang Quoc Viet street, Cau Giay dist, Ha Noi, Vietnam </item>
+  
+  <!--Memu-->
+  <item name="home">Home</item>
+  <item name="contactus">Contact Us</item>
+  <item name="career">Job oppotunities</item>
+  <item name="partner">Partner </item>
+  <item name="services">Infectious Diseases</item>
+  <item name="maps">Disease Warning Map</item>
+  <item name="diagrams">Statistic Diagrams</item>
+  <item name="news">News</item>
+  <item name="about">About </item>
+  <item name="Mission">Mission</item>
+  <item name="Organization">Organizational chart</item>
+  <item name="Bod">Board of Directors &amp; Managers</item>
+  <item name="Whyadicom">Warning and Mornitoring Disease System</item>
+  <item name="phobien">Common knowledge</item>
+  <item name="phobien1">Patients</item>
+  <item name="phobien2">Dermatology Diseases</item>
+  <item name="phobien3">Diseases Specialist</item>
+  <item name="phobien4">Heart Sickness</item>
+  <item name="sitemap">Sitemap</item>
+  <item name="term">Term &amp; Conditions</item>
+  
+  <!--Label-->
+  <item name="latestNew">Latest news</item>
+  <item name="more">more...</item>
+  <item name="support">Customer support</item>
+  <item name="hotline">Hotline</item>
+  <item name="contactushelp">Please, use the following data to contact us:</item>
+  <item name="fullname">Full name:</item>
+  <item name="email">Email:</item>
+  <item name="telephone">Telephone:</item>
+  <item name="company">Company:</item>
+  <item name="city">City:</item>
+  <item name="country">Country:</item>
+  <item name="request">Request:</item>
+  <item name="hear">Where did you hear about ?</item>
+  <item name="send">Send</item>
+  <item name="reason1">Please select bellow...</item>
+  <item name="reason2">Daily newspaper</item>
+  <item name="reason3">TV</item>
+  <item name="reason4">Internet search engine</item>
+  <item name="reason5">Business partner</item>
+  <item name="reason6">Other</item>
+  <item name="headoffice">Head office:</item>
+  <item name="tel">Tel:</item>
+  <item name="fax">Fax:</item>
+  <item name="person">Contact Person:</item>
+  <item name="department">Sale &amp; Marketing Department:</item>
+  <item name="zoom">Large image</item>
+  
+  <!--News-->
+  <item name="type1">Business News</item>
+  <item name="type2">Partners </item>
+  <item name="type3">Warning and Mornitoring Disease System News</item>
+  <item name="type1des">news from business markets</item>
+  <item name="type2des">news from partner and clients</item>
+  <item name="type3des">news, events, anouncements</item>
+  
+  <!--Product&Services-->
+  <item name="service">Prevention</item>
+  <item name="product">Disease</item>
+  <item name="productcat1">Information about disease</item>
+  <item name="productcat2">Border Development Prevention</item>
+  <item name="servicecat1">Frequently Asked Questions</item>
+  <item name="servicecat2">Doctor Tips</item>
+  <item name="ListDichBenh">Monitoring and management</item>
+  
+  <!--Partner&Client-->
+  <item name="partnertitle">Partners</item>
+  <item name="client">Clients</item>
+  
+  <item name="thanks">Thanks for your feedback, we will contact you soon!</item>
+  
+</Resource>
+

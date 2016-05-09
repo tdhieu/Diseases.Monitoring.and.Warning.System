@@ -1,0 +1,707 @@
+MAP
+	NAME "Ban do tp"
+	STATUS ON
+	SIZE 800 600
+	SYMBOLSET  ../total/etc/symbols.sym
+	EXTENT         106.354850 10.353551 107.025759 11.161245
+	UNITS METERS
+	SHAPEPATH  "shapefile"
+	IMAGECOLOR     255 255 255
+	FONTSET   ../total/etc/fonts.txt
+	
+	PROJECTION
+	  "init=epsg:4236"
+	END
+	WEB
+	    IMAGEPATH "/ms4w/tmp/ms_tmp/"
+	    IMAGEURL  "/ms_tmp/"	   
+		metadata  
+			"wms_feature_info_mime_type" "text/html" 
+		end
+	END
+
+	
+
+# Start of legend
+	LEGEND
+	  KEYSIZE 18 12
+	  LABEL
+		TYPE BITMAP
+		SIZE MEDIUM
+		COLOR 0 0 89
+	  END
+	  STATUS ON	
+	  #STATUS EMBED
+	  #POSITION LR
+	  #TRANSPARENT TRUE
+	END
+
+# Start of scalebar
+	SCALEBAR
+	  IMAGECOLOR 255 255 255
+	  LABEL
+		COLOR 0 0 0 
+		SIZE SMALL
+	  END
+	  SIZE 150 5
+	  COLOR 255 255 255
+	  BACKGROUNDCOLOR 0 0 0
+	  OUTLINECOLOR 0 0 0
+	  UNITS kilometers
+	  INTERVALS 3
+	  STATUS OFF
+	  #STATUS EMBED
+	  TRANSPARENT TRUE
+	END
+	
+# Start of query
+	QUERYMAP
+	  STATUS ON
+	  STYLE HILITE
+	  #STYLE SELECTED
+	#STYLE NORMAL
+	  COLOR 255 255 0
+	END
+
+# Start of layer definitions
+# Lop Tim duong
+	LAYER
+	    NAME "duong"
+	    METADATA
+		    "DESCRIPTION"   "Duong"
+		    "RESULT_FIELDS" "TEN_DUONG ID"
+
+	    END
+	    TYPE LINE
+	    STATUS ON
+	    DATA quan1_timduong
+	    LABELITEM    "Ten_duong"
+		CLASS	
+			NAME "Tim_duong"			
+			STYLE
+				#SYMBOL 0 
+				COLOR 255 153 0
+			END			
+			LABEL        			
+				COLOR 0 0 0
+	        		#SHADOWCOLOR 218 218 218
+        			#SHADOWSIZE 1 1
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 7
+        			ANTIALIAS TRUE
+	        		ANGLE auto
+				POSITION CC				
+        			PARTIALS FALSE
+	        		#MINDISTANCE 300
+				#MINFEATURESIZE auto
+        			BUFFER 4
+	      		END # end of label
+			
+		END
+		TOLERANCE 1
+	END
+# lop hanh chinh
+	LAYER
+            #PROCESSING "CLOSE_CONNECTION=DEFER"
+	    NAME "thanhpho"
+	    dump true
+	    METADATA
+	          qstring_validation_pattern '.'
+		    "DESCRIPTION"   "thanh pho"
+		    "RESULT_FIELDS" "FID MaDVHC TenDVHC"
+		    "gml_include_items" "all"
+		    "wms_feature_info_mime_type" "text/plain"
+	    END
+	    template "TP_template.html"
+	    TYPE POLYGON
+	    STATUS ON
+	    DATA thanhpho_dvhc	
+		LABELITEM    "TenDVHC"
+		CLASSITEM	"MaDVHC"									
+		CLASS	
+		    EXPRESSION '79760'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13   
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 255 255 255
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79761'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79762'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+
+CLASS	
+		    EXPRESSION '79763'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79764'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+
+CLASS	
+		    EXPRESSION '79765'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        255 49 30
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79766'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+
+CLASS	
+		    EXPRESSION '79767'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79768'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79769'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79770'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79771'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79772'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79773'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79774'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79775'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79776'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        255 49 30
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79777'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79778'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79783'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR       242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79784'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79785'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79786'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        255 49 30
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+CLASS	
+		    EXPRESSION '79787'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13			        
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+
+END
+		
+
+END 
+#MAP
+	

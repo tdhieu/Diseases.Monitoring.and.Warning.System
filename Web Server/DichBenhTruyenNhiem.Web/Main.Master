@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="Adicom.Web.Main" %>
+
+<%@ Register Src="Controls/UCFooter.ascx" TagName="UCFooter" TagPrefix="adicom" %>
+<%@ Register Src="Controls/UCHeader.ascx" TagName="UCHeader" TagPrefix="adicom" %>
+<%@ Register Src="Controls/UCMainMenu.ascx" TagName="UCMainMenu" TagPrefix="adicom" %>
+<%@ Register TagPrefix="Localized" Namespace="Localization" Assembly="Localization" %>
+<%@ Register Src="Controls/UCLiveSupport.ascx" TagName="UCLiveSupport" TagPrefix="adicom" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ADICOM</title>
+
+    <script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+
+</head>
+<body class="adicom">
+    <form id="form1" runat="server">
+    <div align="center">
+        <div id="container">
+            <div id="containerbg">
+                <div id="header">
+                    <adicom:UCHeader ID="UCHeader1" runat="server"></adicom:UCHeader>
+                </div>
+                <!-- end header -->
+                <!-- start menu. -->
+                <div class="header-menu">
+                    <adicom:UCMainMenu ID="UCMainMenu1" runat="server"></adicom:UCMainMenu>
+                </div>
+                <!-- end menu.  -->
+                <!-- start banner -->
+                <div id="banner">
+                    <div>
+                        <asp:AdRotator ID="adBanner" AdvertisementFile="~\banner\banner.xml" runat="server"
+                            Target="_blank" />
+                    </div>
+                    <div id="support" class="module">
+                        <adicom:UCLiveSupport ID="UCLiveSupport1" runat="server" />
+                    </div>
+                </div>
+                <!-- end image header -->
+                <div id="containerBody">
+                    <table cellpadding=0 cellspacing=0 >
+                    <tr>
+                    <td class="leftBg">  
+                    <!-- start left col-->
+                    <div id="leftcol">
+                        <div style="height:10px;"></div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- end left col-->
+                    </td>
+                    <td valign=top>
+                     <!-- start main body -->
+                    <div id="content_main">
+                        <div style="height:10px;"></div>
+                        <div id="headerbody">
+                            <asp:Literal ID="ltTitleMain" runat="server"></asp:Literal>
+                            </div>
+                        
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <!-- end main body -->
+                    </td>
+                    </tr>
+                    </table>
+                  
+                   
+                </div>
+                <div id="footer">
+                    <adicom:UCFooter ID="UCFooter1" runat="server"></adicom:UCFooter>
+                </div>
+            </div>
+            <!-- copyright notice -->
+            <div id="copyright">
+                <div align="center">
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

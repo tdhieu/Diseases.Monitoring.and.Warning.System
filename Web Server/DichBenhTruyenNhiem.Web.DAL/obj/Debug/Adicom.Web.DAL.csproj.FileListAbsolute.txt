@@ -1,0 +1,30 @@
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb

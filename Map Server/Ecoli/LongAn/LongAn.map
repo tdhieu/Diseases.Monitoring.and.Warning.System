@@ -1,0 +1,394 @@
+MAP
+	NAME "Ban Do tinh Long An"
+	STATUS ON
+	SIZE 800 600
+	SYMBOLSET  ../total/etc/symbols.sym
+	EXTENT         554243.530336 1149582.555806 691130.804245 1219736.926087
+	UNITS METERS
+	SHAPEPATH  "shapefile"
+	IMAGECOLOR     255 255 255
+	FONTSET   ../total/etc/fonts.txt
+	
+	PROJECTION
+	  "init=epsg:4236"
+	END
+	WEB
+	    IMAGEPATH "/ms4w/tmp/ms_tmp/"
+	    IMAGEURL  "/ms_tmp/"	   
+		metadata  
+			"wms_feature_info_mime_type" "text/html" 
+		end
+	END
+
+# Start of legend
+	LEGEND
+	  KEYSIZE 18 12
+	  LABEL
+		TYPE BITMAP
+		SIZE MEDIUM
+		COLOR 0 0 89
+	  END
+	  STATUS ON	
+	  #STATUS EMBED
+	  #POSITION LR
+	  #TRANSPARENT TRUE
+	END
+
+# Start of scalebar
+	SCALEBAR
+	  IMAGECOLOR 255 255 255
+	  LABEL
+		COLOR 0 0 0 
+		SIZE SMALL
+	  END
+	  SIZE 150 5
+	  COLOR 255 255 255
+	  BACKGROUNDCOLOR 0 0 0
+	  OUTLINECOLOR 0 0 0
+	  UNITS kilometers
+	  INTERVALS 3
+	  STATUS OFF
+	  #STATUS EMBED
+	  TRANSPARENT TRUE
+	END
+	
+# Start of query
+	QUERYMAP
+	  STATUS ON
+	  STYLE HILITE
+	  #STYLE SELECTED
+	#STYLE NORMAL
+	  COLOR 255 255 0
+	END
+
+# Start of layer definitions
+# lop hanh chinh
+	LAYER
+        #PROCESSING “CLOSE_CONNECTION=DEFER”
+	    NAME "hanhchinh"	
+	    TYPE POLYGON
+	    STATUS ON
+	    DATA  longan_h
+		dump true
+	    METADATA
+			qstring_validation_pattern '.'
+			"gml_include_items" "all"
+			#"wms_feature_info_mime_type" "text/html"
+			"wms_feature_info_mime_type" "text/plain"			
+		    "DESCRIPTION"   "hanh chinh"
+		    "RESULT_FIELDS" "FID TEN_HUYEN"
+	    END
+		template "longan_template.html"		
+		LABELITEM   "TEN_HUYEN"
+		CLASSITEM	"TEN_HUYEN"							
+		CLASS	
+		    EXPRESSION 'H. BÕn Løc'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0			        
+				OUTLINECOLOR 104 167 252
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+        END
+        CLASS 
+			EXPRESSION 'H. Ch©u Thµnh'
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0			        
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+		END
+		CLASS  
+		    EXPRESSION 'H. CÇn Guéc'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. CÇn §­íc'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. Méc Hãa'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21    
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. Th¹nh Hãa'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. Thñ Thõa'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. T©n H­ng'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 124 217 105
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. T©n Th¹nh'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 232 77 25
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. T©n Trô'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 89 74 89
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. VÜnh H­ng'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 184 172 173
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION 'H. §øc HuÖ'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21
+				OUTLINECOLOR 254 177 225
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END		
+		CLASS  
+		    EXPRESSION 'H. §øc Hßa'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        255 49 30    
+				OUTLINECOLOR 74 25 251
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END		
+		CLASS  
+		    EXPRESSION 'TX. T©n An'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        255 49 30
+				OUTLINECOLOR 163 184 158
+			 END
+			 LABEL
+        			COLOR 0 0 0
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 10
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END		
+	END	 
+END 
+#MAP
+	

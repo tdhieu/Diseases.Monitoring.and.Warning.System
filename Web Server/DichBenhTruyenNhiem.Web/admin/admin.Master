@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="Adicom.Web.admin.admin_master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+</head>
+<body style="width:auto">
+    <form id="form1" runat="server">
+    <div>
+        <div class="header">
+            <div class="adminLogo">
+                <asp:HyperLink ID="hplHome" runat="server" NavigateUrl="~/home.aspx">
+        <img src="../images/logo.png" alt="ADICOM JSC" border="0" /></asp:HyperLink>
+            </div>
+            <div class="headerText">
+                Chào mừng đến với hệ thống cảnh báo và giám sát dịch bệnh truyền nhiễm
+                <h4 style="color:Maroon"> Welcome to the Warning and Monitoring Disease System </h4>
+            </div>
+        </div>
+        <div class="header-menu">
+            <asp:Menu ID="mnuAdmin" runat="server" DataSourceID="smdsMenu" Orientation="Horizontal"
+                cssselectorclass="AdminMenu" OnMenuItemDataBound="mnuAdmin_MenuItemDataBound">
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="smdsMenu" runat="server" ShowStartingNode="false" SiteMapProvider="AdicomAdminSiteMapProvider" />
+        </div>
+        <div class="content">
+            <div class="errors">
+                <asp:Literal runat="server" ID="lErrorTitle" EnableViewState="false" />
+                <asp:Literal runat="server" ID="lErrorComplete" EnableViewState="false" />
+            </div>
+            <div class="cph">
+                <asp:ContentPlaceHolder ID="cph2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1235 @@
+/3.1
+(ODB.1
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	31
+)
+
+(Project.2
+	Name:	"vietnam_4kv.apr"
+	CreationDate:	"29 March, 2006 2:32:35 PM"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	105
+	Doc:	61
+	ActiveDoc:	105
+	Buttons:	147
+	Buttons:	148
+	Buttons:	149
+	Scripts:	150
+	Prefs:	151
+	WorkDir:	978
+	WinX:	-4
+	WinY:	-3
+	WinW:	1032
+	WinH:	745
+	SerialNumber:	"693241329832"
+	SelColor:	979
+	GUINames:	980
+	GUINames:	981
+	GUINames:	982
+	GUINames:	983
+	GUINames:	984
+	GUINames:	985
+	GUINames:	986
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	5
+	Y:	5
+	W:	238
+	H:	320
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(Table.6
+	Name:	"Attributes of Admin1.shp"
+	CreationDate:	"29 March, 2006 2:33:20 PM"
+	GUIName:	"Table"
+	Win:	7
+	CSMgr:	8
+	DocExts:	146
+	VTab:	14
+)
+
+(DocWin.7
+	Owner:	6
+	X:	-4
+	Y:	-4
+	W:	1034
+	H:	638
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"RespondTable"
+)
+
+(FTheme.10
+	Name:	"Admin1.shp"
+	Source:	11
+	Flags:	0x04
+	Legend:	47
+	Threshold:	60
+	View:	61
+	GSet:	116
+	LegEditScript:	"View.EditLegend"
+	TxPos:	117
+	LabelField:	21
+	Table:	6
+	AttrRules:	118
+	AttrRules:	119
+	AttrRules:	120
+	AttrRules:	121
+	AttrRules:	122
+	AttrRules:	123
+	AttrRules:	124
+	AttrRules:	125
+	AttrRules:	126
+	AttrRules:	127
+	AttrRules:	128
+	AttrRules:	129
+	AttrRules:	130
+	AttrRules:	131
+	AttrRules:	132
+	AttrRules:	133
+	AttrRules:	134
+	AttrRules:	135
+	AttrRules:	136
+	AttrRules:	137
+	AttrRules:	138
+	AttrRules:	139
+	AttrRules:	140
+	AttrRules:	141
+	AttrRules:	142
+	AttrRules:	143
+	AttrRules:	144
+	AttrRules:	145
+	SnapTolCursor:	1
+)
+
+(ShpSrc.11
+	Name:	12
+	FTab:	14
+)
+
+(SrcName.12
+	FileName:	13
+	Name:	"admin1.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.13
+	Path:	"d:/ban do kvpn/vn/admin1.shp"
+)
+
+(FTab.14
+	Name:	"admin1.dbf"
+	BTab:	15
+	Fields:	45
+	Fields:	16
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
+	Fields:	22
+	Fields:	23
+	Fields:	24
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	Fields:	28
+	Fields:	29
+	Fields:	30
+	Fields:	31
+	Fields:	32
+	Fields:	33
+	Fields:	34
+	Fields:	35
+	Fields:	36
+	Fields:	37
+	Fields:	38
+	Fields:	39
+	Fields:	40
+	Fields:	41
+	Fields:	42
+	Fields:	43
+	SelBits:	46
+	FSrc:	11
+)
+
+(dBASE.15
+	Name:	"admin1.dbf"
+	Fields:	16
+	Fields:	17
+	Fields:	18
+	Fields:	19
+	Fields:	20
+	Fields:	21
+	Fields:	22
+	Fields:	23
+	Fields:	24
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	Fields:	28
+	Fields:	29
+	Fields:	30
+	Fields:	31
+	Fields:	32
+	Fields:	33
+	Fields:	34
+	Fields:	35
+	Fields:	36
+	Fields:	37
+	Fields:	38
+	Fields:	39
+	Fields:	40
+	Fields:	41
+	Fields:	42
+	Fields:	43
+	FileName:	44
+)
+
+(Field.16
+	Name:	"Province_c"
+	Btab:	15
+	Alias:	"Province_c"
+	Type:	9
+	Order:	-1
+	Pixels:	77
+)
+
+(Field.17
+	Name:	"Count"
+	Btab:	15
+	Alias:	"Count"
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.18
+	Name:	"E"
+	Btab:	15
+	Alias:	"E"
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.19
+	Name:	"Population"
+	Btab:	15
+	Alias:	"Population"
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.20
+	Name:	"Lvlid"
+	Btab:	15
+	Alias:	"Lvlid"
+	Type:	4
+	Order:	-1
+	Pixels:	131
+)
+
+(Field.21
+	Name:	"Name"
+	Btab:	15
+	Alias:	"Name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	150
+)
+
+(Field.22
+	Name:	"Oldlvlid"
+	Btab:	15
+	Alias:	"Oldlvlid"
+	Type:	4
+	Order:	-1
+	Pixels:	131
+)
+
+(Field.23
+	Name:	"Code_4KV"
+	Btab:	15
+	Alias:	"Code_4KV"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.24
+	Name:	"Mac_4m06"
+	Btab:	15
+	Alias:	"Mac_4m06"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.25
+	Name:	"Tv_4m06"
+	Btab:	15
+	Alias:	"Tv_4m06"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.26
+	Name:	"Tb_m_01_05"
+	Btab:	15
+	Alias:	"Tb_m_01_05"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.27
+	Name:	"Tb_c_01_05"
+	Btab:	15
+	Alias:	"Tb_c_01_05"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.28
+	Name:	"Stt"
+	Btab:	15
+	Alias:	"Stt"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.29
+	Name:	"Deaths_06"
+	Btab:	15
+	Alias:	"Deaths_06"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.30
+	Name:	"Cases_06"
+	Btab:	15
+	Alias:	"Cases_06"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.31
+	Name:	"Mac_4m07"
+	Btab:	15
+	Alias:	"Mac_4m07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.32
+	Name:	"Chet_4m07"
+	Btab:	15
+	Alias:	"Chet_4m07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.33
+	Name:	"Mac_5m07"
+	Btab:	15
+	Alias:	"Mac_5m07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.34
+	Name:	"Tv_5m07"
+	Btab:	15
+	Alias:	"Tv_5m07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.35
+	Name:	"Mac_5m06"
+	Btab:	15
+	Alias:	"Mac_5m06"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.36
+	Name:	"Tv_5m06"
+	Btab:	15
+	Alias:	"Tv_5m06"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.37
+	Name:	"Mac_3m07"
+	Btab:	15
+	Alias:	"Mac_3m07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.38
+	Name:	"Mac_2m07"
+	Btab:	15
+	Alias:	"Mac_2m07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.39
+	Name:	"Mac_m1_07"
+	Btab:	15
+	Alias:	"Mac_m1_07"
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.40
+	Name:	"D1_5M07"
+	Btab:	15
+	Alias:	"D1_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.41
+	Name:	"D2_5M07"
+	Btab:	15
+	Alias:	"D2_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.42
+	Name:	"D3_5M07"
+	Btab:	15
+	Alias:	"D3_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.43
+	Name:	"D4_5M07"
+	Btab:	15
+	Alias:	"D4_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(FN.44
+	Path:	"d:/ban do kvpn/vn/admin1.dbf"
+)
+
+(Field.45
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.46
+	NumBits:	61
+
+)
+
+(Legend.47
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	48
+	Class:	53
+	StdDevs:	1.00000000000000
+	NullSym:	54
+	NullValues:	58
+	StatValues:	59
+	Precision:	-3
+)
+
+(SymList.48
+	Child:	49
+)
+
+(BShSym.49
+	Color:	50
+	Outline:	1
+	OutlineColor:	51
+	OutlineWidth:	0.10000000000000
+	BgColor:	52
+)
+
+(TClr.50
+	Red:	0xaed7
+	Green:	0x7d79
+	Blue:	0x3df8
+)
+
+(TClr.51
+)
+
+(TClr.52
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.53
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.54
+	Color:	55
+	Outline:	1
+	OutlineColor:	56
+	OutlineWidth:	0.10000000000000
+	BgColor:	57
+)
+
+(TClr.55
+	Name:	"Transparent"
+)
+
+(TClr.56
+	Name:	"Transparent"
+)
+
+(TClr.57
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.58
+)
+
+(NameDict.59
+)
+
+(Thresh.60
+)
+
+(View.61
+	Name:	"View1"
+	CreationDate:	"29 March, 2006 2:32:41 PM"
+	GUIName:	"View"
+	Win:	62
+	CSMgr:	63
+	DocExts:	65
+	DocExts:	66
+	Graphics:	67
+	Theme:	74
+	Theme:	10
+	LastScale:	34035103.30407314700000
+	Dpy:	68
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.62
+	Owner:	61
+	Open:	1
+	X:	20
+	Y:	20
+	W:	478
+	H:	284
+)
+
+(CSMgr.63
+	Client:	64
+)
+
+(CSClient.64
+	Client:	65
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.65
+	Doc:	61
+)
+
+(DocAct.66
+	Doc:	61
+)
+
+(GList.67
+	Dpy:	68
+	FormatNumb:	73
+)
+
+(MapDpy.68
+	Left:	101.40899868594373
+	Bottom:	4.06458120107254
+	Top:	24.31088148643843
+	Right:	117.71207483999812
+	ReportUnits:	4
+	Units:	10
+	Scale:	69
+	FrameTop:	2.60416666666667
+	FrameRight:	3.26041666666667
+	PageDpy:	70
+	FitToPage:	1
+	MouseLoc:	72
+)
+
+(Numb.69
+	N:	0.12862432296082
+)
+
+(PageDpy.70
+	Top:	2.60416666666667
+	Right:	3.26041666666667
+	ReportUnits:	1
+	Units:	1
+	Scale:	71
+	ZoomRight:	3.26041666666667
+	ZoomTop:	2.60416666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.71
+	N:	96.00000000000000
+)
+
+(PointD.72
+	x:	99.47787922085871
+	y:	14.75462775174573
+)
+
+(Numb.73
+)
+
+(FTheme.74
+	Name:	"Vietnam_4kv.shp"
+	Source:	75
+	Flags:	0x07
+	Legend:	89
+	Threshold:	102
+	View:	61
+	GSet:	103
+	LegEditScript:	"View.EditLegend"
+	TxPos:	104
+	Table:	105
+	AttrRules:	110
+	AttrRules:	111
+	AttrRules:	112
+	AttrRules:	113
+	AttrRules:	114
+	AttrRules:	115
+	SnapTolCursor:	1
+)
+
+(ShpSrc.75
+	Name:	76
+	FTab:	78
+)
+
+(SrcName.76
+	FileName:	77
+	Name:	"vietnam_4kv.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.77
+	Path:	"d:/ban do kvpn/vn/vietnam_4kv.shp"
+)
+
+(FTab.78
+	Name:	"vietnam_4kv.dbf"
+	BTab:	79
+	Fields:	87
+	Fields:	80
+	Fields:	81
+	Fields:	82
+	Fields:	83
+	Fields:	84
+	Fields:	85
+	SelBits:	88
+	FSrc:	75
+)
+
+(dBASE.79
+	Name:	"vietnam_4kv.dbf"
+	Fields:	80
+	Fields:	81
+	Fields:	82
+	Fields:	83
+	Fields:	84
+	Fields:	85
+	FileName:	86
+)
+
+(Field.80
+	Name:	"Code_4kv"
+	Btab:	79
+	Alias:	"Code_4kv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	65
+)
+
+(Field.81
+	Name:	"Count"
+	Btab:	79
+	Alias:	"Count"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	71
+)
+
+(Field.82
+	Name:	"D1_5M07"
+	Btab:	79
+	Alias:	"D1_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.83
+	Name:	"D2_5M07"
+	Btab:	79
+	Alias:	"D2_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.84
+	Name:	"D3_5M07"
+	Btab:	79
+	Alias:	"D3_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(Field.85
+	Name:	"D4_5M07"
+	Btab:	79
+	Alias:	"D4_5M07"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	101
+)
+
+(FN.86
+	Path:	"d:/ban do kvpn/vn/vietnam_4kv.dbf"
+)
+
+(Field.87
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	53
+)
+
+(Bitmap.88
+	NumBits:	4
+
+)
+
+(Legend.89
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	90
+	Class:	95
+	StdDevs:	1.00000000000000
+	NullSym:	96
+	NullValues:	100
+	StatValues:	101
+	Precision:	-3
+)
+
+(SymList.90
+	Child:	91
+)
+
+(BShSym.91
+	Color:	92
+	Outline:	1
+	OutlineColor:	93
+	OutlineWidth:	0.10000000000000
+	BgColor:	94
+)
+
+(TClr.92
+	Red:	0x2930
+	Green:	0xada3
+	Blue:	0xeae6
+)
+
+(TClr.93
+)
+
+(TClr.94
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.95
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.96
+	Color:	97
+	Outline:	1
+	OutlineColor:	98
+	OutlineWidth:	0.10000000000000
+	BgColor:	99
+)
+
+(TClr.97
+	Name:	"Transparent"
+)
+
+(TClr.98
+	Name:	"Transparent"
+)
+
+(TClr.99
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.100
+)
+
+(NameDict.101
+)
+
+(Thresh.102
+)
+
+(GSet.103
+)
+
+(TxPosPly.104
+	HAlign:	3
+	VAlign:	3
+)
+
+(Table.105
+	Name:	"Attributes of Vietnam_4kv.shp"
+	CreationDate:	"02 July, 2007 7:52:35 AM"
+	GUIName:	"Table"
+	Win:	106
+	CSMgr:	107
+	DocExts:	109
+	VTab:	78
+)
+
+(DocWin.106
+	Owner:	105
+	Open:	1
+	X:	-4
+	Y:	-4
+	W:	1034
+	H:	638
+)
+
+(CSMgr.107
+	Client:	108
+)
+
+(CSClient.108
+	Client:	74
+	ReqName:	"RespondTable"
+)
+
+(DocAct.109
+	Doc:	105
+)
+
+(AttrSingle.110
+	FTab:	78
+	Field:	80
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.111
+	FTab:	78
+	Field:	81
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.112
+	FTab:	78
+	Field:	82
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.113
+	FTab:	78
+	Field:	83
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.114
+	FTab:	78
+	Field:	84
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.115
+	FTab:	78
+	Field:	85
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(GSet.116
+)
+
+(TxPosPly.117
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.118
+	FTab:	14
+	Field:	16
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.119
+	FTab:	14
+	Field:	17
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.120
+	FTab:	14
+	Field:	18
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.121
+	FTab:	14
+	Field:	19
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.122
+	FTab:	14
+	Field:	20
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.123
+	FTab:	14
+	Field:	21
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.124
+	FTab:	14
+	Field:	22
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.125
+	FTab:	14
+	Field:	23
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.126
+	FTab:	14
+	Field:	24
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.127
+	FTab:	14
+	Field:	25
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.128
+	FTab:	14
+	Field:	26
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.129
+	FTab:	14
+	Field:	27
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.130
+	FTab:	14
+	Field:	28
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.131
+	FTab:	14
+	Field:	29
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.132
+	FTab:	14
+	Field:	30
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.133
+	FTab:	14
+	Field:	31
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.134
+	FTab:	14
+	Field:	32
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.135
+	FTab:	14
+	Field:	33
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.136
+	FTab:	14
+	Field:	34
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.137
+	FTab:	14
+	Field:	35
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.138
+	FTab:	14
+	Field:	36
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.139
+	FTab:	14
+	Field:	37
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.140
+	FTab:	14
+	Field:	38
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.141
+	FTab:	14
+	Field:	39
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.142
+	FTab:	14
+	Field:	40
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.143
+	FTab:	14
+	Field:	41
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.144
+	FTab:	14
+	Field:	42
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.145
+	FTab:	14
+	Field:	43
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(DocAct.146
+	Doc:	6
+)
+
+(LButn.147
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"Table.New"
+)
+
+(LButn.148
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.149
+	HelpTopic:	"Print_button"
+	Update:	"Table.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Table.Action"
+)
+
+(NameDict.150
+)
+
+(NameDict.151
+	Obj:	152
+	Obj:	153
+)
+
+(AVDict.152
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.153
+	InternalName:	"_Thor_"
+)
+
+(FN.978
+	Path:	"$HOME"
+)
+
+(TClr.979
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.980
+	S:	"View"
+)
+
+(AVStr.981
+	S:	"Table"
+)
+
+(AVStr.982
+	S:	"Chart"
+)
+
+(AVStr.983
+	S:	"Layout"
+)
+
+(AVStr.984
+	S:	"Script"
+)
+
+(AVStr.985
+	S:	"Project"
+)
+
+(AVStr.986
+	S:	"Appl"
+)
+

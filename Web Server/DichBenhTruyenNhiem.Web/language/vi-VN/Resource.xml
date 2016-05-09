@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Resource>
+  
+  <!--Vietnamese-->
+  <item name="colon">:</item>
+  <item name="lang">vi</item>
+  <item name="title">Hệ Thống Cảnh Báo và Giám Sát Dịch Bệnh</item>
+  <item name="sitename">Hệ Thống Cảnh Báo và Giám Sát Dịch Bệnh</item>
+  <item name="slogan">Vì sức khỏe cộng đồng</item>
+  <item name="footer">
+    Bản quyền © 2009 Viện Công Nghệ Thông Tin - IOIT
+  </item>
+  <item name="address">18 Hoàng Quốc Việt, Cầu Giấy, Hà Nội, Việt Nam </item>
+  
+  <!--Menu-->
+  <item name="home">Trang chủ</item>
+  <item name="contactus">Liên hệ</item>
+  <item name="career">Tuyển dụng</item>
+  <item name="partner">Đối tác </item>
+  <item name="services">Bệnh truyền nhiễm</item>
+  <item name="maps">Bản đồ dịch bệnh</item>
+  <item name="diagrams">Biểu đồ thống kê</item>
+  <item name="news">Tin tức</item>
+  <item name="about">Giới thiệu</item>
+  <item name="Mission">Mục tiêu</item>
+  <item name="Organization">Tổ chức Hệ Thống Cảnh Báo và Giám Sát Dịch Bệnh</item>
+  <item name="Mod">Đội ngũ quản lý</item>
+  <item name="Whyadicom">Vì sao cần có Hệ Thống Cảnh Báo và Giám Sát Dịch Bệnh ?</item>
+  <item name="phobien">Phổ biến kiến thức</item>
+  <item name="phobien1">Bệnh Nhi</item>
+  <item name="phobien2">Bệnh Da Liễu</item>
+  <item name="phobien3">Các Bệnh Chuyên Khoa</item>
+  <item name="phobien4">Tim Mạch</item>
+  <item name="sitemap">Sitemap</item>
+  <item name="term">Term &amp; Conditions</item>
+  
+  <!--Label-->
+  <item name="latestNew">Tin tức mới</item>
+  <item name="more">Xem thêm...</item>
+  <item name="support">Hỗ trợ bệnh nhân</item>
+  <item name="hotline">Điện thoại</item>
+  <item name="contactushelp">Vui lòng nhập các thông tin dưới đây để liên hệ chúng tôi:</item>
+  <item name="fullname">Họ và Tên:</item>
+  <item name="email">Hộp thư:</item>
+  <item name="telephone">Điện thoại:</item>
+  <item name="company">Công ty:</item>
+  <item name="city">Tỉnh/Thành phố:</item>
+  <item name="country">Quốc gia:</item>
+  <item name="request">Yêu cầu:</item>
+  <item name="hear">Làm sao bạn biết về Hệ Thống Cảnh Báo và Giám Sát Dịch Bệnh ?</item>
+  <item name="send">Gởi</item>
+  <item name="reason1">Vui lòng chọn...</item>
+  <item name="reason2">Báo / Tạp chí</item>
+  <item name="reason3">Tivi</item>
+  <item name="reason4">Internet</item>
+  <item name="reason5">Đối tác kinh doanh</item>
+  <item name="reason6">Khác</item>
+  <item name="headoffice">Trụ sở:</item>
+  <item name="tel">ĐT:</item>
+  <item name="fax">Fax:</item>
+  <item name="person">Người liên hệ:</item>
+  <item name="department">Phòng &amp; hỗ trợ bệnh nhân</item>
+  <item name="zoom">Phóng to</item>
+  
+  <!--News-->
+  <item name="type1">Tin trong nước</item>
+  <item name="type2">Tin quốc tế </item>
+  <item name="type3">Tin trong ngày</item>
+  <item name="type1des">news from business markets</item>
+  <item name="type2des">news from partner and clients</item>
+  <item name="type3des">news, events, anouncements</item>
+
+  <!--Product&Services-->
+  <item name="service">Phòng chống</item>
+  <item name="product"> Dịch bệnh </item>
+  <item name="productcat1">Thông tin về dịch bệnh</item>
+  <item name="productcat2">Biên pháp phòng chống</item>
+  <item name="servicecat1">Các câu hỏi thường gặp</item>
+  <item name="servicecat2">Lời khuyên bác sỹ</item>
+  <item name="ListDichBenh">Giám sát và quản lý </item>
+  
+  <!--Partner&Client-->
+  <item name="partnertitle">Đối tác trong nước</item>
+  <item name="client">Đối tác nước ngoài</item>
+
+  <item name="thanks">Xin cám ơn những ý kiến đóng góp phản hồi, chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất!</item>
+</Resource>
+

@@ -1,0 +1,257 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	width: 1000px;
+	min-height:768;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	marginheight:0px;
+	margin-left: 120px;
+	font-style: normal;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	clip: rect(0px,0px,0px,0px);
+	background-attachment: fixed;
+	background-position: 100% 100%;
+	display: inherit;
+	margin: auto;
+}
+#content {
+}
+
+.image {
+	height: 99%;
+	width: 99.5%;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin: 2px;
+	padding: 0px;
+	text-align: center;
+}
+.hinhanh {
+	height: 257px;
+	width: 250px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+.clean {
+	clear: both;
+	height: 3px;
+	width: 100%;
+}
+#trai {
+	padding: 0px;
+	float: left;
+	width: 736px;
+	border: 1px solid #99CCFF;
+	margin: 0px;
+	height: 518px;
+}
+#abowtrai {
+	height: 100%;
+}
+#body {
+}
+#belowphai {
+}
+#abowphai {
+}
+#belowtrai {
+	height: 100px;
+}
+#phai {
+	text-align: center;
+	padding: 5px;
+	float: right;
+	width: 250px;
+	border: 1px solid #99CCFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 612px;
+	margin-right: 0px;
+}
+.form_textbox {
+	margin: 0px;
+}
+.textbox {
+	color: #9900FF;
+	width: 250px;
+	border: 1px solid #669966;
+}
+#phai hr {
+	color: #990000;
+}
+.table7 {
+	background-color: #0099FF;
+}
+#footer {
+	height: 67px;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0A1936;
+}
+.table5 {
+	background-color: #330099;
+}
+.table6 {
+	background-color: #0000FF;
+}
+.table8 {
+	background-color: #33CCFF;
+}
+.tieude {
+	margin-left: 70px;
+	height: 50px;
+}
+.table1 {
+	background-color: #CC0000;
+}
+.table2 {
+	background-color: #FF0033;
+}
+.table3 {
+	background-color: #FF6699;
+}
+.table4 {
+	background-color: #FF99FF;
+}
+.style3 {font-size: 18px; font-weight: bold; }
+.style4 {
+	color: #FFFFFF;
+	font-size: 9px;
+}
+.style6 {font-size: 16px}
+.style7 {font-size: 16}
+.style8 {font-size: 14px; }
+#word {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: none;
+	color: #CCCCCC;
+}
+#word:hover {
+	text-decoration: underline;
+	font-style: oblique;
+}
+
+#header {
+	background-image: url(headerimage.jpg);
+	width: 1000px;
+	height: 130px;
+}
+#headerword {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #FFFFFF;
+	height: 50px;
+	width: 300px;
+	float: left;
+}
+
+#headerright {
+	float: right;
+	height: 50px;
+	width: 200px;
+	margin: 2;
+	padding: 2;
+	clear: right;
+}
+#headerleft {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style: normal;
+	color: #FFFFFF;
+	float: right;
+	height: 50px;
+	width: 150px;
+}
+#headerword {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: bold;
+	float: right;
+	height: 50px;
+	width: 300px;
+	margin: 0;
+}
+
+
+.img1 {
+	float: right;
+	height: 50px;
+	width: 60px;
+	margin-left:10px;
+}
+#headerbelow {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style: normal;
+	color: #FFFFFF;
+	height: 30px;
+	width: 600px;
+	margin-left: 150px;
+	margin-bottom: 0px;
+	float: right;
+	background-position: bottom;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	margin-top: 30px;
+}
+.wordheaderbelow {
+	background-position: bottom;
+	margin-bottom: 0px;
+	bottom: 0px;
+	clip: rect(auto,auto,0px,auto);
+}
+.style10{
+	font: bold 30px Tahoma, Arial, Helvetica, sans-serif;
+	color: rgb(246,123,046);
+}
+.style11{
+	font: bold 30px Tahoma, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+.img2 {
+	float: right;
+	height: 50px;
+	width: 60px;
+}
+.img3{
+	float:left;
+	height:50px;
+	width:60px;
+}
+#drawchart{
+	height:300px;
+	width:300px;
+}
+.chuthich1{
+	color: #CC0000;	
+}
+.chuthich2{
+	color: #663333;
+}

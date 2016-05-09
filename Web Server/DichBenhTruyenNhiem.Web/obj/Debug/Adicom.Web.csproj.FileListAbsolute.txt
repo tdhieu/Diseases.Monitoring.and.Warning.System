@@ -1,0 +1,66 @@
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.pdb
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.DAL.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\CSSFriendly.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\FredCK.FCKeditorV2.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\Localization.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.DAL.pdb
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\obj\Debug\Adicom.Web.dll
+D:\ADICOM Project\webSite_ADICOM\Adicom.Web\obj\Debug\Adicom.Web.pdb
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.pdb
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.DAL.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\CSSFriendly.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\FredCK.FCKeditorV2.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\Localization.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\bin\Adicom.Web.DAL.pdb
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\obj\Debug\Adicom.Web.dll
+D:\webSite_ADICOM\webSite_ADICOM\Adicom.Web\obj\Debug\Adicom.Web.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\CSSFriendly.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\FredCK.FCKeditorV2.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Localization.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\Adicom.Web.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\Adicom.Web.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.DAL.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\CSSFriendly.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\FredCK.FCKeditorV2.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Localization.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.DAL.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\Adicom.Web.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\Adicom.Web.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\ADICOM.Controls.MultiColumnCombo.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\ADICOM.Controls.MultiColumnCombo.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\Adicom.Web.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\obj\Debug\Adicom.Web.pdb
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.pdb
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\ADICOM.Controls.MultiColumnCombo.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.DAL.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\CSSFriendly.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Charts.v8.2.Core.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Data.v8.2.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Utils.v8.2.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Web.v8.2.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.XtraCharts.v8.2.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.XtraCharts.v8.2.Web.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.XtraEditors.v8.2.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\FredCK.FCKeditorV2.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Localization.dll
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Web.v8.2.xml
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.XtraCharts.v8.2.Web.xml
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.XtraCharts.v8.2.xml
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Utils.v8.2.xml
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.XtraEditors.v8.2.xml
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\Adicom.Web.DAL.pdb
+D:\Document\Luan Van\5h 23 -10-2009Canh Bao Dich Benh\Canh Bao Dich Benh\Canh Bao Dich Benh\Adicom.Web\bin\DevExpress.Data.v8.2.xml

@@ -1,0 +1,39 @@
+<Advertisements>  
+  <Ad>
+      <ImageUrl>~/banner/Products_Clarity_01.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+    <Target>blank</Target>
+      <AlternateText>Welcome to He Thong Canh Bao DIch Benh</AlternateText>
+      <Impressions>1</Impressions>
+   </Ad>
+ <Ad>
+      <ImageUrl>~/banner/Products_Clarity_02.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+    <Target>blank</Target>
+      <AlternateText>Welcome to He Thong Canh Bao DIch Benh</AlternateText>
+      <Impressions>1</Impressions>
+   </Ad>
+<Ad>
+      <ImageUrl>~/banner/Products_Clarity_03.jpg</ImageUrl>
+      <NavigateUrl></NavigateUrl>
+    <Target>blank</Target>
+      <AlternateText>Welcome to He Thong Canh Bao DIch Benh</AlternateText>
+      <Impressions>1</Impressions>
+   </Ad>
+<Ad>
+    <ImageUrl>~/banner/adicom4.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <Target>blank</Target>
+    <AlternateText>Welcome to He Thong Canh Bao DIch Benh</AlternateText>
+    <Impressions>1</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/banner/adicom5.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <Target>blank</Target>
+    <AlternateText>Welcome to He Thong Canh Bao DIch Benh</AlternateText>
+    <Impressions>1</Impressions>
+  </Ad>
+  
+</Advertisements>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home"  description="Home">
+    <!-- Main -->
+    <siteMapNode title="Trang chủ" url="~/home.aspx" description="Trang chủ" tag="home">
+    </siteMapNode>
+    <!-- Main -->
+    <siteMapNode title="Tin tức" url="~/news.aspx" description="Tin tức" tag="news">
+    </siteMapNode>
+    <siteMapNode title="Phổ biến kiến thức" url="~/Phobiens.aspx" description="Phổ biến kiến thức"  tag="phobien">
+    </siteMapNode>
+    <siteMapNode title="Cảnh báo dịch bệnh các bệnh truyền nhiễm" url="~/services.aspx" description="Thông tin Cảnh báo dịch bệnh" tag="services">
+    </siteMapNode>
+    <siteMapNode title="Bản đồ dịch bệnh"  url="http://localhost:81/DN/DongNai.php" description="Bản đồ Cảnh báo dịch bệnh" tag="maps">
+    </siteMapNode>
+    <siteMapNode title="Biểu đồ thống kê " url="~/DanhSachDichBenhBenhVien.aspx" description="Biểu đồ thống kê"  tag="diagrams">
+    </siteMapNode>
+    <siteMapNode title="Đối tác" url="~/partner.aspx" description="Thông tin khách hàng và đối tác" tag="partner">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

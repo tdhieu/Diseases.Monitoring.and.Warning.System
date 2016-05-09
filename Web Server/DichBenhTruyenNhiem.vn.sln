@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DichBenhTruyenNhiem.Web", "DichBenhTruyenNhiem.Web\DichBenhTruyenNhiem.Web.csproj", "{FBBF2155-699B-4FC8-A53E-8148D3A7B3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DichBenhTruyenNhiem.Web.DAL", "DichBenhTruyenNhiem.Web.DAL\DichBenhTruyenNhiem.Web.DAL.csproj", "{34CB7943-E925-4CE9-A2E8-AD2E6046DAF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBBF2155-699B-4FC8-A53E-8148D3A7B3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBF2155-699B-4FC8-A53E-8148D3A7B3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBF2155-699B-4FC8-A53E-8148D3A7B3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBF2155-699B-4FC8-A53E-8148D3A7B3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CB7943-E925-4CE9-A2E8-AD2E6046DAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CB7943-E925-4CE9-A2E8-AD2E6046DAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CB7943-E925-4CE9-A2E8-AD2E6046DAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CB7943-E925-4CE9-A2E8-AD2E6046DAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

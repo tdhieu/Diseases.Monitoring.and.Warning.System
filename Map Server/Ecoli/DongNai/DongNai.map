@@ -1,0 +1,695 @@
+MAP
+	NAME "Ban do tinh Dong Nai"
+	STATUS ON
+	SIZE 800 600
+	SYMBOLSET  ../total/etc/symbols.sym
+	EXTENT         691344 1170278 781609 1281508
+	UNITS METERS
+	SHAPEPATH  "shapefile"
+	IMAGECOLOR     255 255 255
+	FONTSET   ../total/etc/fonts.txt
+	
+	PROJECTION
+	  "init=epsg:4236"
+	END
+	WEB
+	    IMAGEPATH "/ms4w/tmp/ms_tmp/"
+	    IMAGEURL  "/ms_tmp/"	   
+		metadata  
+			"wms_feature_info_mime_type" "text/html" 
+		end
+	END
+
+# Start of legend
+	LEGEND
+	  KEYSIZE 18 12
+	  LABEL
+		TYPE BITMAP
+		SIZE MEDIUM
+		COLOR 0 0 89
+	  END
+	  STATUS ON	
+	  #STATUS EMBED
+	  #POSITION LR
+	  #TRANSPARENT TRUE
+	END
+
+# Start of scalebar
+	SCALEBAR
+	  IMAGECOLOR 255 255 255
+	  LABEL
+		COLOR 0 0 0 
+		SIZE SMALL
+	  END
+	  SIZE 150 5
+	  COLOR 255 255 255
+	  BACKGROUNDCOLOR 0 0 0
+	  OUTLINECOLOR 0 0 0
+	  UNITS kilometers
+	  INTERVALS 3
+	  STATUS OFF
+	  #STATUS EMBED
+	  TRANSPARENT TRUE
+	END
+	
+# Start of query
+	QUERYMAP
+	  STATUS ON
+	  STYLE HILITE
+	  #STYLE SELECTED
+	#STYLE NORMAL
+	  COLOR 255 255 0
+	END
+	
+# Start of layer definitions
+# lop hanh chinh
+	LAYER
+            #PROCESSING “CLOSE_CONNECTION=DEFER”
+	    NAME "hanhchinh"
+	    dump true
+	    METADATA
+		    qstring_validation_pattern '.'
+		    "DESCRIPTION"   "hanh chinh"
+		    "RESULT_FIELDS" "FID MA_HUYEN TEN_HUYEN"
+		    "gml_include_items" "all"
+		    "wms_feature_info_mime_type" "text/plain"
+	    END
+	    template "Huyen_template.html"
+	    TYPE POLYGON
+	    STATUS ON
+	    DATA Huyen
+		LABELITEM    "TEN_HUYEN"
+		CLASSITEM	"MA_HUYEN"							
+		CLASS	
+		    EXPRESSION '734'			
+			
+			 STYLE
+				#SYMBOL "circle"
+				#SIZE 15
+				COLOR        255 49 30
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+             CLASS  
+		    EXPRESSION '735'			
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        255 49 30	        
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '736'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR         255 49 30
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '737'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR         255 49 30
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '738'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0        
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '741'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        225 0 0   
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '732'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '731'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        242 219 13        
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '740'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR        234 85 21   
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+		CLASS  
+		    EXPRESSION '739'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR       234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+
+		CLASS  
+		    EXPRESSION '742'
+			
+			 STYLE
+				#SYMBOL "line-vertical"
+				#SIZE 8
+				COLOR         234 85 21
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label		
+		END
+
+		TOLERANCE 5
+	END
+LAYER
+	NAME "songho"
+	METADATA
+		"DESCRIPTION" "song ho"
+		"RESULT_FIELDS" "FID SGHO_ID TEN"
+	END
+	TYPE POLYGON
+	STATUS ON
+	DATA sho
+		LABELITEM "TEN"
+	CLASS
+		NAME "SGHO"
+		STYLE
+			COLOR 128 255 255
+			OUTLINECOLOR 128 255 255
+		END
+		LABEL
+			COLOR 132 31 31
+			SHADOWCOLOR 128 255 255
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			FONT vntime
+			SIZE 8
+			ANTIALIAS TRUE
+			POSITION CC
+			PARTIALS FALSE
+			MINDISTANCE 300
+			BUFFER 4
+		END
+	END
+END
+LAYER
+	NAME "duong"
+	METADATA
+		"DESCRIPTION" "duong di"
+		"RESULT_FIELDS" "FID LOAI_DUONG"
+	END
+	TYPE LINE
+	STATUS ON
+	DATA dgt
+		LABELITEM "TEN_DUONG"
+		CLASSITEM "LOAI_DUONG"
+	
+CLASS
+		EXPRESSION '417'
+		STYLE
+			COLOR 64 0 0
+			OUTLINECOLOR 64 0 0
+		END
+		LABEL
+			COLOR 132 31 31
+			SHADOWCOLOR 218 218 218
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			FONT vntime
+			SIZE 8
+			ANTIALIAS TRUE
+			ANGLE AUTO
+			POSITION CC
+			PARTIALS FALSE
+			MINDISTANCE 300
+			BUFFER 4
+		END
+
+END
+CLASS
+		EXPRESSION '425'
+		STYLE
+			COLOR 64 0 0
+			OUTLINECOLOR 64 0 0
+		END
+		LABEL
+			COLOR 132 31 31
+			SHADOWCOLOR 218 218 218
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			FONT vntime
+			SIZE 8
+			ANTIALIAS TRUE
+			ANGLE AUTO
+			POSITION CC
+			PARTIALS FALSE
+			MINDISTANCE 300
+			BUFFER 4
+		END
+
+END
+CLASS
+		EXPRESSION '421-2'
+		STYLE
+			COLOR 64 0 0
+			OUTLINECOLOR 64 0 0
+		END
+		LABEL
+			COLOR 132 31 31
+			SHADOWCOLOR 218 218 218
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			FONT vntime
+			SIZE 8
+			ANTIALIAS TRUE
+			ANGLE AUTO
+			POSITION CC
+			PARTIALS FALSE
+			MINDISTANCE 300
+			BUFFER 4
+		END
+
+END
+CLASS
+		EXPRESSION '456'
+		STYLE
+			COLOR 254 177 25
+			OUTLINECOLOR 254 177 25
+		END
+		LABEL
+			COLOR 132 31 31
+			SHADOWCOLOR 218 218 218
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			FONT vntime
+			SIZE 8
+			ANTIALIAS TRUE
+			ANGLE AUTO
+			POSITION CC
+			PARTIALS FALSE
+			MINDISTANCE 300
+			BUFFER 4
+		END
+END
+
+CLASS
+		EXPRESSION '415'
+		STYLE
+			COLOR 64 0 0
+			OUTLINECOLOR 64 0 0
+		END
+		LABEL
+			COLOR 132 31 31
+			SHADOWCOLOR 218 218 218
+			SHADOWSIZE 2 2
+			TYPE TRUETYPE
+			FONT vntime
+			SIZE 8
+			ANTIALIAS TRUE
+			ANGLE AUTO
+			POSITION CC
+			PARTIALS FALSE
+			MINDISTANCE 300
+			BUFFER 4
+		END
+END
+
+END
+LAYER
+	NAME "symbol"
+	TYPE POINT
+	STATUS ON
+	DATA truong
+		CLASSITEM	"MA_TRUONG"	
+	dump true
+	    METADATA
+		    qstring_validation_pattern '.'
+		    "DESCRIPTION"   "bieu tuong"
+		    "RESULT_FIELDS" "FID MA_TRUONG TEN"
+		    "gml_include_items" "all"
+		    "wms_feature_info_mime_type" "text/plain"
+	    END
+template "Symbol_template.html"
+
+	CLASS
+		EXPRESSION '56'
+  		STYLE
+			SYMBOL 7
+  		 	SIZE 25
+   		 	COLOR 0 0 255
+		
+ 		END
+	END
+CLASS
+		EXPRESSION '50'
+  		STYLE
+			SYMBOL 7
+  		 	SIZE 30
+   		 	COLOR 0 0 160
+
+		
+ 		END
+	END
+CLASS
+		EXPRESSION '73'
+  		STYLE
+			SYMBOL 7
+  		 	SIZE 20
+   		 	COLOR 115 103 218
+
+		
+ 		END
+	END
+
+
+END 
+
+LAYER
+            #PROCESSING �CLOSE_CONNECTION=DEFER�
+	    NAME "huyen"
+	    dump true
+	    METADATA
+		    qstring_validation_pattern '.'
+		    "DESCRIPTION"   "huyen dong nai"
+		    "RESULT_FIELDS" "FID MA_HUYEN TEN_HUYEN"
+		    "gml_include_items" "all"
+		    "wms_feature_info_mime_type" "text/plain"
+	    END
+	    template "Huyen_template.html"
+	    TYPE POLYGON
+	    STATUS ON
+	    DATA Huyen
+		LABELITEM    "TEN_HUYEN"
+		CLASSITEM	"MA_HUYEN"							
+		CLASS	
+		    EXPRESSION '736'			
+			
+			 STYLE
+				#SYMBOL "circle"
+				#SIZE 15
+				COLOR        128 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+		CLASS	
+		    EXPRESSION '741'			
+			
+			 STYLE
+				#SYMBOL "circle"
+				#SIZE 15
+				COLOR        128 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+		CLASS	
+		    EXPRESSION '738'			
+			
+			 STYLE
+				#SYMBOL "circle"
+				#SIZE 15
+				COLOR        255 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+		CLASS	
+		    EXPRESSION '732'			
+			
+			 STYLE
+				#SYMBOL "circle"
+				#SIZE 15
+				COLOR        255 0 0
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+		CLASS	
+		    EXPRESSION '739'			
+			
+			 STYLE
+				#SYMBOL "circle"
+				#SIZE 15
+				COLOR        255 0 128
+				OUTLINECOLOR 254 177 25
+			 END
+			 LABEL
+        			COLOR 132 31 31
+	        		SHADOWCOLOR 218 218 218
+        			SHADOWSIZE 2 2
+	        		TYPE TRUETYPE
+        			FONT vntime
+	        		SIZE 8
+        			ANTIALIAS TRUE
+	        		POSITION CC
+        			PARTIALS FALSE
+	        		MINDISTANCE 300
+					#MINFEATURESIZE auto
+        			BUFFER 4
+	      	 END # end of label	
+               END
+
+   END 	  
+END 
+#MAP
+	

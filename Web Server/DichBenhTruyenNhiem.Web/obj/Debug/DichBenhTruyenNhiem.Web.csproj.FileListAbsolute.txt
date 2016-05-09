@@ -1,0 +1,129 @@
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Charts.v8.2.Core.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Data.v8.2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Utils.v8.2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.v8.2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.Web.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraEditors.v8.2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraNavBar.v8.2.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraEditors.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Data.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Utils.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.Web.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraNavBar.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.ASPxEditors.v8.2.xml
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.ASPxGridView.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Charts.v8.2.Core.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Data.v8.2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Utils.v8.2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.v8.2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.Web.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraEditors.v8.2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Localization.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraNavBar.v8.2.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.ASPxEditors.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.ASPxGridView.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraEditors.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Data.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Utils.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.Web.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraNavBar.v8.2.xml
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+\\vmware-host\Shared Folders\Softwares\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\Adicom.Web.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\Adicom.Web.pdb
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\CSSFriendly.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Charts.v8.2.Core.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Data.v8.2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Utils.v8.2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.v8.2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.Web.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraEditors.v8.2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\FredCK.FCKeditorV2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\Localization.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraNavBar.v8.2.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\Adicom.Web.DAL.pdb
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.ASPxEditors.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.ASPxGridView.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraEditors.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Data.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Utils.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.Web.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraCharts.v8.2.Web.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\bin\DevExpress.XtraNavBar.v8.2.xml
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.dll
+C:\Canh Bao Dich Benh 1\DichBenhTruyenNhiem.Web\obj\Debug\Adicom.Web.pdb

@@ -1,0 +1,21 @@
+
+# Start of layer definitions
+# lop hanh chinh
+	LAYER
+        #PROCESSING “CLOSE_CONNECTION=DEFER”
+	    NAME "hanhchinh"	
+	    TYPE @#type#@
+	    STATUS ON
+	    DATA  @#data#@
+		dump true
+	    METADATA
+			qstring_validation_pattern '.'
+			"gml_include_items" "all"
+			#"wms_feature_info_mime_type" "text/html"
+			"wms_feature_info_mime_type" "text/plain"			
+		    "DESCRIPTION"   "hanh chinh"
+		    "RESULT_FIELDS" "FID @#classitem#@"
+	    END
+		template "@#template#@"		
+		LABELITEM   "@#labelitem#@"
+		CLASSITEM	"@#classitem#@"	

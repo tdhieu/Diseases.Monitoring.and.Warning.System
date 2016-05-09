@@ -1,0 +1,36 @@
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Document\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Edit Canh Bao Dich Benh Edit\13 -11-2009Canh Bao Dich Benh Edit\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Document\Canh Bao Dich Benh\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+D:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll.config
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\bin\Debug\Adicom.Web.DAL.pdb
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.dll
+C:\Canh Bao Dich Benh\DichBenhTruyenNhiem.Web.DAL\obj\Debug\Adicom.Web.DAL.pdb

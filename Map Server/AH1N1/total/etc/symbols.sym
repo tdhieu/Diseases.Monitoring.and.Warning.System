@@ -1,0 +1,302 @@
+SYMBOLSET
+Symbol
+Name 'tent'
+Type VECTOR
+Filled TRUE
+Points
+0 1
+.5 0
+1 1
+.75 1
+.5 .5
+.25 1
+0 1
+END
+END 
+
+Symbol
+Name 'star'
+Type VECTOR
+Filled TRUE
+Points
+0 .375
+.35 .375
+.5 0
+.65 .375
+1 .375
+.75 .625
+.875 1
+.5 .75
+.125 1
+.25 .625
+END
+END 
+
+Symbol
+Name 'triangle'
+Type VECTOR
+Filled TRUE
+Points
+0 1
+.5 0
+1 1
+0 1
+END
+END 
+
+Symbol
+Name 'square'
+Type VECTOR
+Filled TRUE
+Points
+0 1
+0 0
+1 0
+1 1
+0 1
+END
+END 
+
+Symbol
+Name 'plus'
+Type VECTOR
+Points
+.5 0
+.5 1
+-99 -99
+.6 0
+.6 1
+-99 -99
+0 .5
+1 .5
+-99 -99
+0 .6
+1 .6
+END
+END 
+
+Symbol
+Name 'cross'
+Type VECTOR
+Points
+0 0
+1 1
+-99 -99
+0 1
+1 0
+END
+END
+
+Symbol
+Name 'circle'
+Type ELLIPSE
+Filled TRUE
+Points
+1 1
+END
+END 
+
+Symbol
+Name 'circle_nofill'
+Type ELLIPSE
+Filled FALSE
+Points
+1 1
+END
+END 
+
+Symbol
+Name 'circle_vector'
+Type VECTOR
+TRANSPARENT 0
+Points
+0 1
+1 1
+END
+END 
+
+Symbol
+Name 'under_line'
+Type VECTOR
+TRANSPARENT 0
+Points
+1 0
+1 1
+END
+END 
+
+Symbol
+Name 'flash'
+Type VECTOR
+TRANSPARENT 0
+Points
+0 0
+1 1
+END
+END 
+
+Symbol
+Name 'convert_flash'
+Type VECTOR
+TRANSPARENT 0
+Points
+0 1
+1 0
+END
+END 
+
+Symbol
+Name 'X_vector'
+Type VECTOR
+Points
+0 1
+1 0
+-99 -99
+0 0
+1 1
+END
+END 
+
+Symbol
+Name 'circle_fill_vector'
+Type ELLIPSE
+Filled TRUE
+Points
+1 1
+END
+END 
+
+Symbol
+Name 'B'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "B"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'F'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "F"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'H'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "H"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'M'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "M"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'R'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "R"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'S'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "S"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'V'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER "V"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'Ep'
+Type TRUETYPE
+FONT "sans-bold"
+CHARACTER " Ep"
+Antialias TRUE
+GAP 10
+END
+
+Symbol
+Name 'house'
+Type VECTOR
+Filled FALSE
+Points
+.25 0
+.75 0
+.75 .35
+.25 .35
+.25 0
+-99 -99
+0 .35
+1 .35
+1 .75
+0 .75
+0 .35
+-99 -99
+.5 0
+.5 .35
+END
+END 
+
+Symbol
+Name 'old_house'
+Type VECTOR
+Filled FALSE
+Points
+0 .30
+.25 0
+.75 0
+1 .30
+0 .30
+-99 -99
+.20 .30
+.20 1
+.40 1
+.40 .30
+-99 -99
+.80 .30
+.80 1
+.60 1
+.60 .30
+END
+END 
+
+Symbol
+  NAME "line-vertical"
+  TYPE vector
+  POINTS
+    0.5 0
+    0.5 1
+  END
+END
+
+Symbol
+  NAME "line-horizontal"
+  TYPE vector
+  POINTS
+    0 0.5
+    1 0.5
+  END
+END

@@ -1,0 +1,161 @@
+﻿/*-----------------------------------------------------------------------------------------
+Screen Stylesheet for Map Modify
+date: 26/03/2011
+author: Nguyen Thanh Tung
+email: tungnt86@gmail.com
+version: 1.0
+--------------------------------------------------------------------------------------------*/
+#tblmapmod{
+	width: 100%;
+	border-collapse:collapse;
+}
+#trmapmodhead{
+	border-bottom: 1px solid #ffffff;
+}
+#tbllistoflayer{
+	width: 100%;
+	border-collapse:collapse;
+}
+#tbllistofclass{
+	width: 100%;
+	border-collapse:collapse;
+}
+#tbllistofsymbol{
+	width: 100%;
+	border-collapse:collapse;
+}
+/*Screen Stylesheet for widget
+-------------------------------------------------------------------------------------------*/
+.widget{
+	display: none;
+	font: normal 14px Tahoma, Arial, Helvetica, sans-serif;
+}
+.validatetips{
+	font: bold 15px Tahoma, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+/*Screen Stylesheet for introduction page
+-------------------------------------------------------------------------------------------*/
+#divintroduction{
+	color: #ffffff;
+	font: normal 16px Tahoma, Arial, Helvetica, sans-serif;
+}
+#div_pagename{
+	margin: 5px;
+	text-align: center; 
+	font: bold 16px Tahoma, Arial, Helvetica, sans-serif;
+}
+#div_intro_image{
+	width: 400px;
+	height: 300px;
+	background-color: blue;
+	float: left;
+	margin: 5px;
+	background: url(Images/intro_image.jpg) center no-repeat;
+}
+.largetopic{
+	margin: 10px 0px 10px 480px;
+	padding-left: 0px;
+	list-style-type: disc;
+ 	list-style-image: url(Images/largetopic.png);
+}
+.functionlist{
+	margin-top: 5px;
+}
+/*Screen Stylesheet for delete map page
+--------------------------------------------------------------------------------------------*/
+#smtdelmap{
+	width: 70px;
+	margin: 5px 0px 5px 90px;
+}
+/*Screen Stylesheet for manage level page
+--------------------------------------------------------------------------------------------*/
+#tbllistoflevel{
+	margin-top: 10px;
+	width: 100%;
+	border-collapse:collapse;
+}
+#tbxnameoflevel {
+	width: 150px;
+	margin: 5px 15px 10px 0px;
+}
+#tbxdeseasedthreshold {
+	width: 50px;
+	margin: 5px 15px 10px 2px;
+}
+#tbxdeaththreshold {
+	width: 50px;
+	margin: 5px 15px 10px 2px;
+}
+#smtaddnewlevel {
+	width: 70px;
+	margin: 5px 0px 10px 2px;
+	
+}
+/*Screen Stylesheet for update map page
+--------------------------------------------------------------------------------------------*/
+#tbxupshapfile{
+	width: 40%;
+	margin: 5px 10px 5px 10px;
+}
+#sltkindoflayer1{
+	width: 18%;
+	margin: 5px 20px 10px 3px;
+}
+#sltkindoflayer2{
+	width: 18%;
+	margin: 5px 20px 10px 3px;
+}
+#sltlistofprovince{
+	width: 16%;
+	margin: 5px 15px 10px 0px;
+}
+#sltlistofdistrict{
+	width: 16%;
+	margin: 5px 15px 10px 0px;
+}
+#tbxclassFID{
+	width: 16%;
+	margin: 5px 10px 10px 0px;
+}
+#sltlistofsymbol{
+	width: 20%;
+	margin: 5px 205px 10px 0px;
+}
+#tbxradius{
+	width: 20%;
+	margin: 5px 205px 10px 62px;
+}
+#tbxlong{
+	width: 18%;
+	margin: 5px 0px 10px 0px;
+}
+#tbxla{
+	width: 18%;
+	margin: 5px 10px 10px 17px;
+}
+/*Screen Stylesheet for create map page
+--------------------------------------------------------------------------------------------*/
+.mapoverheadtabletd{
+	width: 50%; 
+	text-align: left; 
+	padding: 5px;
+}
+.mapoverheadinputelement{
+	float: right; 
+	width: 60%;
+	margin: 5px;
+}
+.upshapefileinputelement{
+	float: right; 
+	width: 60%;
+	margin: 5px;
+}
+.tdupshapefiletable30{
+	width: 30%;
+	padding: 5px;
+}
+.tdupshapefiletable40{
+	width: 40%;
+	padding: 5px;
+}

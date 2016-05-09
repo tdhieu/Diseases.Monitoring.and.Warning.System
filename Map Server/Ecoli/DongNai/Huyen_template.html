@@ -1,0 +1,32 @@
+<!-- MapServer Template -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="../total/jscharts.js"></script>
+    </head>
+    <body>
+        <!-- [minx], [miny] [maxx], [maxy] <br> -->
+          <b> Ma huyen :  </b> [MA_HUYEN]  <br>
+          <b>Ten huyen : </b> <span id="tenhuyen"> [TEN_HUYEN] </span><br>
+          <b> Dien tich: </b>   [DIENTICH] <br>
+          <input type="button" id="btndraw" name="btndraw" value="Biểuđồthốngkê" onClick="draw();this.style.visibility = 'hidden';" />
+<!--          <input type="button" id="btnvtd" name="btnvtd" value="Mứcđộvùngtrọngđiểm" onClick="vungtrongdiem();this.style.visibility = 'hidden';" /><br>-->
+          <span id="sumdealth"> </span> <br>
+          <span id="sick"> </span> <br>
+          <span id="dealth"> </span> <br>
+          <div id="drawchart"></div>
+          <table align="center" border="1" cellspacing="1">
+            <tr>
+              <td colspan="2" align="center">Chú thích</td>
+            </tr>
+            <tr>
+              <td> Số ca tử vong:</td>
+              <td class="chuthich1">____/\/\____</td>
+            </tr>
+            <tr>
+              <td>Số ca mắc bệnh:</td>
+              <td class="chuthich2">____/\/\_____</td>
+            </tr>
+          </table>
+</body>
+</html>
